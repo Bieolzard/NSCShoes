@@ -1,0 +1,262 @@
+.imagem_link {
+  padding: 1em;
+}
+
+a:hover {
+  color: white;
+}
+
+.botao_cor {
+  background-color: black;
+  color: white;
+  border-radius: 3px;
+  margin: 0.5em;
+  padding: 0.5em;
+}
+
+.cor_especial {
+  color: whiteblack;
+}
+
+.fonte_titulo {
+  font-family: "Poppins";
+}
+
+.container__imagem {
+  display: flex;
+  align-items: center;
+}
+
+/* .imagem_sapato{
+    position: relative;
+    bottom: 20px;
+    top: 150px;
+} */
+
+/* .imagem_sapato-dois{
+    position: relative;
+    bottom: 150px;
+    top: 50px;
+} */
+
+body::-webkit-scrollbar {
+  width: 12px;
+  overflow-y: scroll; /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: white; /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: black; /* color of the scroll thumb */
+  border-radius: 20px; /* roundness of the scroll thumb */
+  border: 3px solid white; /* creates padding around scroll thumb */
+}
+
+/*  .scrollbar{
+    overflow-x: scroll;
+    white-space: nowrap;
+  }
+
+    .scrollbar::-webkit-scrollbar{
+    width: 2px;
+    height: 8px;
+    background-color: #aaa;
+
+}
+    .scrollbar::-webkit-scrollbar-track{
+        background: white;
+    }
+
+    .scrollbar::-webkit-scrollbar-thumb{
+        background-color: black;  
+        border-radius: 20px;      
+        border: 3px solid white;
+    }*/
+
+.scrollmenu {
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.scrollmenu a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+.scrollmenu a:hover {
+  background-color: #777;
+}
+
+.scrollmenu::-webkit-scrollbar {
+  width: 20px;
+  height: 8px;
+  background-color: #aaa;
+}
+
+.scrollmenu::-webkit-scrollbar-track {
+  background: white;
+}
+
+.scrollmenu::-webkit-scrollbar-thumb {
+  background-color: black;
+  border-radius: 20px;
+  border: 2px solid white;
+}
+
+.container__women {
+  position: relative;
+  text-align: center;
+  color: black;
+}
+
+.container__men {
+  position: relative;
+  text-align: center;
+  color: black;
+}
+
+.top-left {
+  position: absolute;
+  top: 60px;
+  left: 65px;
+  font-size: 40px;
+  color: azure;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 60px;
+  right: 56px;
+  font-size: 40px;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 60px;
+  left: 66px;
+  font-size: 40px;
+}
+
+.women {
+  width: 100%;
+}
+
+.men {
+  width: 100%;
+}
+
+.logo_mobile {
+  display: none;
+}
+.logo_desktop {
+  display: block;
+}
+
+.fonte-sapato-principal {
+  font-size: 3em;
+}
+
+.teste {
+  display: flex;
+}
+
+@media screen and (max-width: 991px) {
+  .logo_mobile {
+    display: block;
+    
+  }
+  .logo_desktop {
+    display: none;
+    
+  }
+
+  .rodape{
+    display: block;
+  }
+  
+}
+
+@media screen and (max-width: 850px) {
+  .bottom-left {
+    font-size: 30px;
+  }
+  a.bottom-left {
+  font-size: 30px;
+  }
+
+  .bottom-right{
+    font-size: 30px;
+
+  }
+
+  a.bottom-right{
+    font-size: 30px;
+
+  }
+  .top-left{
+    font-size: 30px;
+
+  }
+  
+  a.top-left{
+    font-size: 30px;
+
+  }
+}
+
+@media screen and (max-width: 767.98px){
+  .bottom-left {
+    font-size: 20px;
+  }
+  a.bottom-left {
+  font-size: 20px;
+  }
+
+  .bottom-right{
+    font-size: 20px;
+
+  }
+
+  a.bottom-right{
+    font-size: 20px;
+
+  }
+  .top-left{
+    font-size: 20px;
+
+  }
+  
+  a.top-left{
+    font-size: 20px;
+
+  }
+
+}
+
+@media screen and (max-width: 500px) {
+.div-banner {
+  flex-direction: column-reverse;
+}
+  .div-titulo{
+    text-align: center;
+    display: block;
+  
+  }
+
+  .section-imagens{
+    flex-direction: column-reverse;
+    text-align: center;
+
+  }
+
+  .rodape{
+    display: none;
+  }
+
+  
+}
